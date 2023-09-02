@@ -3,10 +3,12 @@ const modalBtn = document.querySelector('.icon_search')
 const modalClose = document.querySelector('.search-close-switch')
 
 modalBtn.addEventListener('click', () => {
-    modal.style.display = 'block'
+    modal.classList.add('search-model--active')
+    modal.style.display = ' '
+
 })
 
 modalClose.addEventListener('click', () => {
-    modal.style.display = 'none'
+    modal.classList.remove('search-model--active')
 })
 
