@@ -4,7 +4,7 @@ const modalClose = document.querySelector('.search-close-switch')
 
 modalBtn.addEventListener('click', () => {
     modal.classList.add('search-model--active')
-    modal.style.display = ' '
+    // modal.style.display = 'inline'
 
 })
 

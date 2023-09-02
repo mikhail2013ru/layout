@@ -290,6 +290,7 @@ ol {
   z-index: -1;
   opacity: 0;
   transition: opacity 0.3s, z-index 0.3s;
+  display: inline;
 }
 
 .search-model--active {
